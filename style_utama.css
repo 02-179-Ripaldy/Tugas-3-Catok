@@ -1,0 +1,129 @@
+/* Dasar Tampilan */
+body {
+    font-family: monospace, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #2b7a78;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+/* Kolom Kiri: Sidebar */
+aside {
+    width: 30%;
+    background-color: #f0ebe3;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-info,
+.social-media {
+    margin-top: 20px;
+}
+
+aside h2 {
+    color: #3aa79e;
+    font-size: 1.2em;
+}
+
+aside p,
+aside ul {
+    font-size: 0.9em;
+}
+
+aside ul li {
+    list-style-type: none;
+}
+
+.social-media ul li a {
+    color: #005f99;
+    text-decoration: none;
+}
+
+.social-media ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Tombol Link Biodata */
+.biodata-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.biodata-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #3aa79e;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.biodata-button a:hover {
+    background-color: #2b7a78;
+}
+
+
+/* Kolom Kanan: Konten Utama */
+main {
+    width: 70%;
+    padding: 20px;
+}
+
+main h2 {
+    color: #3aa79e;
+    font-size: 1.4em;
+    border-bottom: 2px solid #3aa79e;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+main ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+main p,
+main ul li {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2b7a78;
+    color: white;
+}
